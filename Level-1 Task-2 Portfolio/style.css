@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    border: border-box;
+    width: auto;
+}
+
+/* header */
+.navbar{ 
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-fname {
+    color:aqua;
+    font-size: 2rem;
+    padding-right: 6px;
+    padding-left: 10px;
+}
+
+.nav-lname {
+    color: aqua;
+    font-size: 2rem;
+}
+
+ .nav-emp {
+    padding-right: 1200px;
+} 
+
+.nav-sections {
+    display: flex;
+    color: aquamarine; 
+    font-size: 1.3rem;
+    
+}
+
+.home {
+   margin-left: 30px;
+}
+
+.about {
+   margin-left: 30px;
+}
+
+.education {
+    margin-left: 30px;
+}
+
+.skills {
+   margin-left: 30px;
+}
+
+.project {
+   margin-left: 30px;
+} 
+
+.certification {
+    margin-left: 30px;
+}
+
+.languages {
+    margin-left: 30px;
+}
+
+.contect {
+    margin-left: 30px;
+}
+
+/* body of page1 */
+.page1 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;
+}
+
+.emp {
+    padding-bottom: 150px;
+}
+
+/* Page 1 */
+.page1-logo:hover {
+    border: 10px solid rgb(255, 1, 81);
+    transition: 0.5s ease-in-out;
+}
+
+.page1-logo {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    /* width: 19vw; */
+    border-radius: 50%;
+    border: 10px solid turquoise ;
+    background-color: black;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    background-image: url("profile_img.jpg");
+    background-size:cover;
+}
+
+.text {
+    margin-top: 15px;
+    color: azure;
+}
+
+.text1 {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    font-size: 2.5rem;
+    color:rgb(200, 56, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text3 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text4 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text4-0 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}  
+
+/* About */
+.page2 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    min-height: 100vh;
+    display: flex;
+    padding-top: 200px;
+}
+
+.About {
+    font-size: 3rem;
+    color:coral;
+    margin-left: 400px;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.Content {
+    text-align: left;
+    font-size: 2rem;
+    color: whitesmoke;
+    width: 800px;
+    height: 200px;
+    margin-top: 150px; 
+}
+
+.page2-logo {
+    margin-left: 120px;
+    height: 500px;
+    width: 500px; 
+    border-radius: 50%;
+    border: 10px solid turquoise ;
+    background-color: black;
+    box-shadow: 0 0 20px black ;
+    background-image: url("profile_img.jpg");
+    background-size: cover;
+} 
+
+/* Education */
+.page3 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;
+    padding-top: 100px;
+}
+
+.Education {
+    color: rgb(237, 146, 10);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.border {
+    border: 3px solid silver;
+    display: block;
+    padding: 10px 20px;
+    margin-left: 700px; 
+    margin-right: 700px;
+}
+
+
+.box1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.box00 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box01 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box02 {
+    color:rgb(152, 152, 148);
+    font-size: 1.3rem;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.box2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.box10 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box11 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box12 {
+    color:rgb(152, 152, 148);
+    font-size: 1.3rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.box20 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box21 {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.box22 {
+    color:rgb(152, 152, 148);
+    font-size: 1.3rem;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Skills */
+.page4 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;  
+}
+
+.Skills {
+    color: palevioletred;
+    font-size: 3.5rem;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.panal1 {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.panal00 {
+    display: block;
+    color: bisque;
+    font-size: 2rem;
+}
+
+.panal01 {
+    display: block;
+    color: bisque;
+    font-size: 1.8rem;
+}
+
+.panal2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.panal10 {
+    display: block;
+    color: bisque;
+    font-size: 2rem;
+}
+
+.panal11 {
+    display: block;
+    color: bisque;
+    font-size: 1.8rem;
+}
+
+.panal20 {
+    text-align: center;
+    padding-top: 40px;
+    display: block;
+    color: bisque;
+    font-size: 2rem;
+}
+
+.panal21 {
+    text-align: center;
+    padding-bottom: 40px;
+    display: block;
+    color: bisque;
+    font-size: 1.8rem;
+}
+
+/* Project */
+.page5 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;  
+}
+
+.Project {
+    color: blanchedalmond;
+    font-size: 3.5rem;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+}
+
+.Project-img {
+    margin-top: 40px;
+    background-image: url("portfolio_img.png");
+    background-size: cover;
+    display: block;
+    height: 500px;
+    width: 932px;   
+}
+
+.onebox {
+    color: darkkhaki;
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    margin-left: 700px;
+    margin-right: 604px;
+}
+
+.twobox {
+    color: darkkhaki;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Certificate */
+.page6 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;  
+}
+
+.key-certification {
+    font-size: 3.5rem;
+    color: lightsalmon;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.key-box {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.key1 {
+    font-size: 2.7rem;
+    color: wheat;
+    display: block;
+    padding-top: 20px;
+}
+
+.key2 {
+    font-size: 2rem;
+    color: rgb(244, 196, 107);
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.key3 {
+    font-size: 1.5rem;
+    color: rgb(191, 191, 180);
+    display: block;
+    padding-bottom: 20px;
+}
+
+/* Language */
+.page7 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;  
+}
+
+.lan-proficiency {
+    color: lightgreen;
+    font-size: 3.2rem;
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.lan-para {
+    color: grey;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.lan-native {
+    margin-top: 40px;
+    color: khaki;
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
+} 
+
+.kan {
+    padding-top: 40px;
+    font-size: 2rem;
+    color: lightsalmon;
+    display: block;
+}
+
+.tel {
+    padding-top: 20px;
+    font-size: 2rem;
+    color: lightsalmon;
+    display: block;
+}
+
+.lan-professional {
+    margin-top: 40px;
+    color: khaki;
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
+} 
+
+.hin {
+    padding-top: 40px;
+    font-size: 2rem;
+    color: lightsalmon;
+    display: block;
+}
+
+.eng {
+    padding-top: 20px;
+    font-size: 2rem;
+    color: lightsalmon;
+    display: block;
+}
+
+/* Contact */
+.page8 {
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+    height: 1000px;  
+}
+
+.contact-me {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: yellowgreen;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 2.3rem;
+    color: rgb(138, 238, 241);
+} 
