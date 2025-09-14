@@ -5,7 +5,7 @@ This repository contains three beginner-friendly web development projects built 
 
 ### 🔗 Projects Overview<br/>
 
-#### 1. 🌐 Landing Page <br/>
+### 1. 🌐 Landing Page <br/>
 A clean and responsive landing page designed using only HTML and CSS. This project demonstrates layout design, visual aesthetics, and proper content structuring.<br/>
 
 ### 2. 💼 Personal Portfolio <br/>
