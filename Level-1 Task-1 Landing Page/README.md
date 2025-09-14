@@ -3,13 +3,13 @@
 ### ✅ Level-1 Task-1 : Landing Page <br/>
 Developed a Landing Page using HTML and CSS which is responsive and visually appealing landing page.This project is part of my web development intership at OASIS Infobyte.<br/> 
 
-Features :<br/>
+#### ➡️ Features :<br/>
 -Clean and modern UI<br/>
 -Fully responsive design<br/>
 -Custom fonts and buttons
 <br/>
 
-Tech Stack :<br/>
+#### ➡️ Tech Stack :<br/>
 -HTML5<br/>
 -CSS
 <br/>
